@@ -1,9 +1,8 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
-import { Contact } from '../../interfaces/contactsInterface';
+import {Contact} from '../../interfaces/contactsInterface';
 
 export default function CardContact({item}: {item: Contact}): JSX.Element {
-
   return (
     <View style={styles.itemContainer}>
       <Image source={{uri: item.picture.medium}} style={styles.itemImage} />
@@ -12,9 +11,7 @@ export default function CardContact({item}: {item: Contact}): JSX.Element {
         <Text style={styles.itemTitle}>
           {item.name.first + ' ' + item.name.last}
         </Text>
-        <Text style={[styles.itemTitle, {fontSize: 13}]}>
-          Toca para más detalles
-        </Text>
+        <Text style={[styles.itemTitle, {fontSize: 13}]}>Disponible</Text>
       </View>
     </View>
   );
