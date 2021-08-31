@@ -1,7 +1,8 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
+import { Contact } from '../../interfaces/contactsInterface';
 
-export default function CardContact({item}: {item: Object}): JSX.Element {
+export default function CardContact({item}: {item: Contact}): JSX.Element {
 
   return (
     <View style={styles.itemContainer}>
