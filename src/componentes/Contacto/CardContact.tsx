@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
 
 export default function CardContact({item}: {item: Object}): JSX.Element {
-  console.log(item);
+
   return (
     <View style={styles.itemContainer}>
       <Image source={{uri: item.picture.medium}} style={styles.itemImage} />
