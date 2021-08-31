@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, ActivityIndicator, FlatList} from 'react-native';
-import CardContact from '../componentes/Contacto/CardContact';
+import CardContact from '../components/Contacto/CardContact';
 import HeaderComponent from '../components/HeaderComponent/HeaderComponent';
 import useContacts from '../hooks/useContacts';
 
