@@ -10,7 +10,7 @@
 
 import React, {FC} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import ListContacts from './src/screens/ListContacts';
+import ListContacts from './src/pantallas/ListContacts';
 
 const App: FC = () => {
   return (
