@@ -14,7 +14,6 @@ export default function ListContact(): JSX.Element {
         setData(res.results);
         setLoading(false);
       }
-      data;
     });
   }, []);
 
